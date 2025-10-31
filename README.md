@@ -5,7 +5,6 @@ Implement and compare two RSA decryption methods:
 - **Standard RSA decryption:** `x = y^d mod n`
 - **CRT-optimized RSA decryption:** compute two smaller exponentiations modulo `p` and `q`, then recombine via the **Chinese Remainder Theorem**.
 
----
 
 ## 2. Source Code
 All required functions are implemented in **`rsa_crt.py`**:
@@ -20,7 +19,6 @@ All required functions are implemented in **`rsa_crt.py`**:
 python rsa_crt.py
 ```
 
----
 
 ## 3. Test Results
 
@@ -38,7 +36,6 @@ python rsa_crt.py
 | CRT RSA      | 141              |
 
 
----
 
 ### (b) Large Primes
 
@@ -57,6 +54,4 @@ python rsa_crt.py
 | Standard RSA | 324309952877571399564352792629998816095895977177801581031                  |
 | CRT RSA      | 324309952877571399564352792629998816095895977177801581031                 |
 
-
----
 

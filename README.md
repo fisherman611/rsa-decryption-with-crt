@@ -49,7 +49,7 @@ python rsa_crt.py
 
 **Results**
 
-| Method       | Decrypted Result (truncated) |
+| Method       | Decrypted Result |
 | ------------ | ---------------------------- | 
 | Standard RSA | 324309952877571399564352792629998816095895977177801581031                  |
 | CRT RSA      | 324309952877571399564352792629998816095895977177801581031                 |
